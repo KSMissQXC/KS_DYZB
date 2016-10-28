@@ -14,6 +14,10 @@
 		000D0D171DC2FF7F00C1A1A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D131DC2FF7F00C1A1A5 /* Info.plist */; };
 		000D0D181DC2FF7F00C1A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */; };
 		000D0D191DC2FF7F00C1A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D151DC2FF7F00C1A1A5 /* Main.storyboard */; };
+		000D0D1B1DC31FE800C1A1A5 /* KSHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D1A1DC31FE800C1A1A5 /* KSHome.storyboard */; };
+		000D0D1D1DC3205900C1A1A5 /* KSLive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D1C1DC3205900C1A1A5 /* KSLive.storyboard */; };
+		000D0D1F1DC3209100C1A1A5 /* KSFocus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D1E1DC3209100C1A1A5 /* KSFocus.storyboard */; };
+		000D0D211DC320CF00C1A1A5 /* KSMine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D201DC320CF00C1A1A5 /* KSMine.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		000D0D131DC2FF7F00C1A1A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		000D0D151DC2FF7F00C1A1A5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		000D0D1A1DC31FE800C1A1A5 /* KSHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = KSHome.storyboard; path = KS_DYZB/Classes/Home/Controller/KSHome.storyboard; sourceTree = SOURCE_ROOT; };
+		000D0D1C1DC3205900C1A1A5 /* KSLive.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KSLive.storyboard; sourceTree = "<group>"; };
+		000D0D1E1DC3209100C1A1A5 /* KSFocus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KSFocus.storyboard; sourceTree = "<group>"; };
+		000D0D201DC320CF00C1A1A5 /* KSMine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KSMine.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		000D0CF71DC2FDC400C1A1A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				000D0D1E1DC3209100C1A1A5 /* KSFocus.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +196,7 @@
 		000D0CFC1DC2FDC400C1A1A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				000D0D1A1DC31FE800C1A1A5 /* KSHome.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,6 +236,7 @@
 		000D0D011DC2FDC400C1A1A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				000D0D1C1DC3205900C1A1A5 /* KSLive.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,6 +315,7 @@
 		000D0D0B1DC2FDC400C1A1A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				000D0D201DC320CF00C1A1A5 /* KSMine.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -348,9 +360,9 @@
 			isa = PBXGroup;
 			children = (
 				000D0D121DC2FF7F00C1A1A5 /* Assets.xcassets */,
-				000D0D131DC2FF7F00C1A1A5 /* Info.plist */,
-				000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */,
 				000D0D151DC2FF7F00C1A1A5 /* Main.storyboard */,
+				000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */,
+				000D0D131DC2FF7F00C1A1A5 /* Info.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -468,8 +480,12 @@
 			files = (
 				000D0D181DC2FF7F00C1A1A5 /* LaunchScreen.storyboard in Resources */,
 				000D0D171DC2FF7F00C1A1A5 /* Info.plist in Resources */,
+				000D0D1F1DC3209100C1A1A5 /* KSFocus.storyboard in Resources */,
+				000D0D1D1DC3205900C1A1A5 /* KSLive.storyboard in Resources */,
+				000D0D1B1DC31FE800C1A1A5 /* KSHome.storyboard in Resources */,
 				000D0D161DC2FF7F00C1A1A5 /* Assets.xcassets in Resources */,
 				000D0D191DC2FF7F00C1A1A5 /* Main.storyboard in Resources */,
+				000D0D211DC320CF00C1A1A5 /* KSMine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = MYGAR5HZ48;
 				INFOPLIST_FILE = KS_DYZB/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -639,7 +655,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = MYGAR5HZ48;
 				INFOPLIST_FILE = KS_DYZB/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
