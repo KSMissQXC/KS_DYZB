@@ -19,6 +19,9 @@
 		000D0D1F1DC3209100C1A1A5 /* KSFocus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D1E1DC3209100C1A1A5 /* KSFocus.storyboard */; };
 		000D0D211DC320CF00C1A1A5 /* KSMine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D201DC320CF00C1A1A5 /* KSMine.storyboard */; };
 		000D0D231DC3370800C1A1A5 /* KSHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D221DC3370800C1A1A5 /* KSHomeController.swift */; };
+		000D0D251DC33E6700C1A1A5 /* KSPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */; };
+		000D0D271DC3467B00C1A1A5 /* KSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D261DC3467B00C1A1A5 /* KSCommon.swift */; };
+		000D0D291DC3541E00C1A1A5 /* KSPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		000D0D1E1DC3209100C1A1A5 /* KSFocus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KSFocus.storyboard; sourceTree = "<group>"; };
 		000D0D201DC320CF00C1A1A5 /* KSMine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KSMine.storyboard; sourceTree = "<group>"; };
 		000D0D221DC3370800C1A1A5 /* KSHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeController.swift; sourceTree = "<group>"; };
+		000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageTitleView.swift; sourceTree = "<group>"; };
+		000D0D261DC3467B00C1A1A5 /* KSCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCommon.swift; sourceTree = "<group>"; };
+		000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +299,8 @@
 		000D0D081DC2FDC400C1A1A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */,
+				000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				000D0D101DC2FDC400C1A1A5 /* Extension */,
+				000D0D261DC3467B00C1A1A5 /* KSCommon.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -513,7 +522,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000D0D271DC3467B00C1A1A5 /* KSCommon.swift in Sources */,
+				000D0D291DC3541E00C1A1A5 /* KSPageContentView.swift in Sources */,
 				000D0D231DC3370800C1A1A5 /* KSHomeController.swift in Sources */,
+				000D0D251DC33E6700C1A1A5 /* KSPageTitleView.swift in Sources */,
 				000D0CAB1DC2EBC100C1A1A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@
         <!--Home Controller-->
         <scene sceneID="aOW-5Q-l4j">
             <objects>
-                <viewController id="YNT-aL-Dw7" customClass="KSHomeController" customModule="KS_DYZB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="YNT-aL-Dw7" customClass="KSHomeController" customModule="KS_DYZB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qRK-jR-600"/>
                         <viewControllerLayoutGuide type="bottom" id="ClU-pT-YfJ"/>
