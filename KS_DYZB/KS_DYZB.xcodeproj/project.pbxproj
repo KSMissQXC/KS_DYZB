@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		000D0CAB1DC2EBC100C1A1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */; };
-		000D0CB01DC2EBC100C1A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0CAE1DC2EBC100C1A1A5 /* Main.storyboard */; };
-		000D0CB21DC2EBC100C1A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */; };
-		000D0CB51DC2EBC100C1A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */; };
 		000D0CC01DC2EBC100C1A1A5 /* KS_DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0CBF1DC2EBC100C1A1A5 /* KS_DYZBTests.swift */; };
 		000D0CCB1DC2EBC100C1A1A5 /* KS_DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0CCA1DC2EBC100C1A1A5 /* KS_DYZBUITests.swift */; };
+		000D0D161DC2FF7F00C1A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D121DC2FF7F00C1A1A5 /* Assets.xcassets */; };
+		000D0D171DC2FF7F00C1A1A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D131DC2FF7F00C1A1A5 /* Info.plist */; };
+		000D0D181DC2FF7F00C1A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */; };
+		000D0D191DC2FF7F00C1A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D151DC2FF7F00C1A1A5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +36,16 @@
 /* Begin PBXFileReference section */
 		000D0CA71DC2EBC100C1A1A5 /* KS_DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KS_DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		000D0CAF1DC2EBC100C1A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		000D0CB41DC2EBC100C1A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		000D0CB61DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000D0CBB1DC2EBC100C1A1A5 /* KS_DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KS_DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CBF1DC2EBC100C1A1A5 /* KS_DYZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KS_DYZBTests.swift; sourceTree = "<group>"; };
 		000D0CC11DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000D0CC61DC2EBC100C1A1A5 /* KS_DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KS_DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CCA1DC2EBC100C1A1A5 /* KS_DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KS_DYZBUITests.swift; sourceTree = "<group>"; };
 		000D0CCC1DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000D0D121DC2FF7F00C1A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000D0D131DC2FF7F00C1A1A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		000D0D151DC2FF7F00C1A1A5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				000D0CF51DC2FDC400C1A1A5 /* Classes */,
+				000D0D111DC2FF7F00C1A1A5 /* Other */,
 				000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */,
-				000D0CAE1DC2EBC100C1A1A5 /* Main.storyboard */,
-				000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */,
-				000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */,
-				000D0CB61DC2EBC100C1A1A5 /* Info.plist */,
 			);
 			path = KS_DYZB;
 			sourceTree = "<group>";
@@ -126,10 +124,10 @@
 		000D0CF51DC2FDC400C1A1A5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				000D0CF61DC2FDC400C1A1A5 /* Focus */,
+				000D0D051DC2FDC400C1A1A5 /* Main */,
 				000D0CFB1DC2FDC400C1A1A5 /* Home */,
 				000D0D001DC2FDC400C1A1A5 /* Live */,
-				000D0D051DC2FDC400C1A1A5 /* Main */,
+				000D0CF61DC2FDC400C1A1A5 /* Focus */,
 				000D0D0A1DC2FDC400C1A1A5 /* Mine */,
 				000D0D0F1DC2FDC400C1A1A5 /* Tools */,
 			);
@@ -140,8 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				000D0CF71DC2FDC400C1A1A5 /* Controller */,
-				000D0CF81DC2FDC400C1A1A5 /* Model */,
 				000D0CF91DC2FDC400C1A1A5 /* View */,
+				000D0CF81DC2FDC400C1A1A5 /* Model */,
 				000D0CFA1DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Focus;
@@ -179,8 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				000D0CFC1DC2FDC400C1A1A5 /* Controller */,
-				000D0CFD1DC2FDC400C1A1A5 /* Model */,
 				000D0CFE1DC2FDC400C1A1A5 /* View */,
+				000D0CFD1DC2FDC400C1A1A5 /* Model */,
 				000D0CFF1DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Home;
@@ -218,8 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				000D0D011DC2FDC400C1A1A5 /* Controller */,
-				000D0D021DC2FDC400C1A1A5 /* Model */,
 				000D0D031DC2FDC400C1A1A5 /* View */,
+				000D0D021DC2FDC400C1A1A5 /* Model */,
 				000D0D041DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Live;
@@ -257,8 +255,8 @@
 			isa = PBXGroup;
 			children = (
 				000D0D061DC2FDC400C1A1A5 /* Controller */,
-				000D0D071DC2FDC400C1A1A5 /* Model */,
 				000D0D081DC2FDC400C1A1A5 /* View */,
+				000D0D071DC2FDC400C1A1A5 /* Model */,
 				000D0D091DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Main;
@@ -296,8 +294,8 @@
 			isa = PBXGroup;
 			children = (
 				000D0D0B1DC2FDC400C1A1A5 /* Controller */,
-				000D0D0C1DC2FDC400C1A1A5 /* Model */,
 				000D0D0D1DC2FDC400C1A1A5 /* View */,
+				000D0D0C1DC2FDC400C1A1A5 /* Model */,
 				000D0D0E1DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Mine;
@@ -344,6 +342,17 @@
 			children = (
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		000D0D111DC2FF7F00C1A1A5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				000D0D121DC2FF7F00C1A1A5 /* Assets.xcassets */,
+				000D0D131DC2FF7F00C1A1A5 /* Info.plist */,
+				000D0D141DC2FF7F00C1A1A5 /* LaunchScreen.storyboard */,
+				000D0D151DC2FF7F00C1A1A5 /* Main.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +417,7 @@
 		000D0C9F1DC2EBC100C1A1A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KS;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = KS;
@@ -456,9 +466,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000D0CB51DC2EBC100C1A1A5 /* LaunchScreen.storyboard in Resources */,
-				000D0CB21DC2EBC100C1A1A5 /* Assets.xcassets in Resources */,
-				000D0CB01DC2EBC100C1A1A5 /* Main.storyboard in Resources */,
+				000D0D181DC2FF7F00C1A1A5 /* LaunchScreen.storyboard in Resources */,
+				000D0D171DC2FF7F00C1A1A5 /* Info.plist in Resources */,
+				000D0D161DC2FF7F00C1A1A5 /* Assets.xcassets in Resources */,
+				000D0D191DC2FF7F00C1A1A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,25 +528,6 @@
 			targetProxy = 000D0CC71DC2EBC100C1A1A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		000D0CAE1DC2EBC100C1A1A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				000D0CAF1DC2EBC100C1A1A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				000D0CB41DC2EBC100C1A1A5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		000D0CCD1DC2EBC100C1A1A5 /* Debug */ = {
@@ -634,7 +626,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MYGAR5HZ48;
-				INFOPLIST_FILE = KS_DYZB/Info.plist;
+				INFOPLIST_FILE = KS_DYZB/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uhoem.KS-DYZB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,7 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MYGAR5HZ48;
-				INFOPLIST_FILE = KS_DYZB/Info.plist;
+				INFOPLIST_FILE = KS_DYZB/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uhoem.KS-DYZB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
