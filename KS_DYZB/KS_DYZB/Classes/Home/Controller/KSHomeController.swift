@@ -9,7 +9,7 @@
 import UIKit
 
 class KSHomeController: UIViewController {
-
+    //设在状态栏为白色
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .lightContent
     }
@@ -17,7 +17,6 @@ class KSHomeController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-    
 
     }
 

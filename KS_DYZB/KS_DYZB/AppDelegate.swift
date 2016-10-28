@@ -29,7 +29,7 @@ extension AppDelegate{
     func setupGlobalAttribute()  {
         let navBar = UINavigationBar.appearance()
         navBar.setBackgroundImage(UIImage(named: "Img_orange"), for: .default)
-        
+        navBar.barStyle = .black
     }
     
     
