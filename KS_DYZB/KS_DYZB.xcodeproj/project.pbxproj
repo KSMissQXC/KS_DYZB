@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		000D0CAB1DC2EBC100C1A1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */; };
-		000D0CAD1DC2EBC100C1A1A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0CAC1DC2EBC100C1A1A5 /* ViewController.swift */; };
 		000D0CB01DC2EBC100C1A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0CAE1DC2EBC100C1A1A5 /* Main.storyboard */; };
 		000D0CB21DC2EBC100C1A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */; };
 		000D0CB51DC2EBC100C1A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */; };
@@ -36,11 +35,10 @@
 /* Begin PBXFileReference section */
 		000D0CA71DC2EBC100C1A1A5 /* KS_DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KS_DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		000D0CAC1DC2EBC100C1A1A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		000D0CAF1DC2EBC100C1A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		000D0CB41DC2EBC100C1A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		000D0CB61DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000D0CB61DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		000D0CBB1DC2EBC100C1A1A5 /* KS_DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KS_DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CBF1DC2EBC100C1A1A5 /* KS_DYZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KS_DYZBTests.swift; sourceTree = "<group>"; };
 		000D0CC11DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +95,10 @@
 		000D0CA91DC2EBC100C1A1A5 /* KS_DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				000D0CD81DC2F7F200C1A1A5 /* Classes */,
+				000D0CF41DC2F82A00C1A1A5 /* Other */,
 				000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */,
-				000D0CAC1DC2EBC100C1A1A5 /* ViewController.swift */,
 				000D0CAE1DC2EBC100C1A1A5 /* Main.storyboard */,
-				000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */,
-				000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */,
-				000D0CB61DC2EBC100C1A1A5 /* Info.plist */,
 			);
 			path = KS_DYZB;
 			sourceTree = "<group>";
@@ -123,6 +119,239 @@
 				000D0CCC1DC2EBC100C1A1A5 /* Info.plist */,
 			);
 			path = KS_DYZBUITests;
+			sourceTree = "<group>";
+		};
+		000D0CD81DC2F7F200C1A1A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CD91DC2F7F200C1A1A5 /* Focus */,
+				000D0CDE1DC2F7F200C1A1A5 /* Home */,
+				000D0CE31DC2F7F200C1A1A5 /* Live */,
+				000D0CE81DC2F7F200C1A1A5 /* Main */,
+				000D0CED1DC2F7F200C1A1A5 /* Mine */,
+				000D0CF21DC2F7F200C1A1A5 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		000D0CD91DC2F7F200C1A1A5 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CDA1DC2F7F200C1A1A5 /* Controller */,
+				000D0CDB1DC2F7F200C1A1A5 /* Model */,
+				000D0CDC1DC2F7F200C1A1A5 /* View */,
+				000D0CDD1DC2F7F200C1A1A5 /* ViewModel */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		000D0CDA1DC2F7F200C1A1A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		000D0CDB1DC2F7F200C1A1A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		000D0CDC1DC2F7F200C1A1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		000D0CDD1DC2F7F200C1A1A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		000D0CDE1DC2F7F200C1A1A5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CDF1DC2F7F200C1A1A5 /* Controller */,
+				000D0CE01DC2F7F200C1A1A5 /* Model */,
+				000D0CE11DC2F7F200C1A1A5 /* View */,
+				000D0CE21DC2F7F200C1A1A5 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		000D0CDF1DC2F7F200C1A1A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		000D0CE01DC2F7F200C1A1A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		000D0CE11DC2F7F200C1A1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		000D0CE21DC2F7F200C1A1A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		000D0CE31DC2F7F200C1A1A5 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CE41DC2F7F200C1A1A5 /* Controller */,
+				000D0CE51DC2F7F200C1A1A5 /* Model */,
+				000D0CE61DC2F7F200C1A1A5 /* View */,
+				000D0CE71DC2F7F200C1A1A5 /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		000D0CE41DC2F7F200C1A1A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		000D0CE51DC2F7F200C1A1A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		000D0CE61DC2F7F200C1A1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		000D0CE71DC2F7F200C1A1A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		000D0CE81DC2F7F200C1A1A5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CE91DC2F7F200C1A1A5 /* Controller */,
+				000D0CEA1DC2F7F200C1A1A5 /* Model */,
+				000D0CEB1DC2F7F200C1A1A5 /* View */,
+				000D0CEC1DC2F7F200C1A1A5 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		000D0CE91DC2F7F200C1A1A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		000D0CEA1DC2F7F200C1A1A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		000D0CEB1DC2F7F200C1A1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		000D0CEC1DC2F7F200C1A1A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		000D0CED1DC2F7F200C1A1A5 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CEE1DC2F7F200C1A1A5 /* Controller */,
+				000D0CEF1DC2F7F200C1A1A5 /* Model */,
+				000D0CF01DC2F7F200C1A1A5 /* View */,
+				000D0CF11DC2F7F200C1A1A5 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		000D0CEE1DC2F7F200C1A1A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		000D0CEF1DC2F7F200C1A1A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		000D0CF01DC2F7F200C1A1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		000D0CF11DC2F7F200C1A1A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		000D0CF21DC2F7F200C1A1A5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CF31DC2F7F200C1A1A5 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		000D0CF31DC2F7F200C1A1A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		000D0CF41DC2F82A00C1A1A5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */,
+				000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */,
+				000D0CB61DC2EBC100C1A1A5 /* Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000D0CAD1DC2EBC100C1A1A5 /* ViewController.swift in Sources */,
 				000D0CAB1DC2EBC100C1A1A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +541,7 @@
 				000D0CB41DC2EBC100C1A1A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -512,6 +741,7 @@
 				000D0CD11DC2EBC100C1A1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000D0CD21DC2EBC100C1A1A5 /* Build configuration list for PBXNativeTarget "KS_DYZBTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +750,7 @@
 				000D0CD41DC2EBC100C1A1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000D0CD51DC2EBC100C1A1A5 /* Build configuration list for PBXNativeTarget "KS_DYZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +759,7 @@
 				000D0CD71DC2EBC100C1A1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
