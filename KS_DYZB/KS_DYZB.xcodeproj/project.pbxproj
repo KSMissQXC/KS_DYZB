@@ -36,9 +36,9 @@
 		000D0CA71DC2EBC100C1A1A5 /* KS_DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KS_DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		000D0CAF1DC2EBC100C1A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000D0CB41DC2EBC100C1A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		000D0CB61DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		000D0CB61DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000D0CBB1DC2EBC100C1A1A5 /* KS_DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KS_DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000D0CBF1DC2EBC100C1A1A5 /* KS_DYZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KS_DYZBTests.swift; sourceTree = "<group>"; };
 		000D0CC11DC2EBC100C1A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,9 +95,11 @@
 		000D0CA91DC2EBC100C1A1A5 /* KS_DYZB */ = {
 			isa = PBXGroup;
 			children = (
-				000D0CF41DC2F82A00C1A1A5 /* Other */,
 				000D0CAA1DC2EBC100C1A1A5 /* AppDelegate.swift */,
 				000D0CAE1DC2EBC100C1A1A5 /* Main.storyboard */,
+				000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */,
+				000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */,
+				000D0CB61DC2EBC100C1A1A5 /* Info.plist */,
 			);
 			path = KS_DYZB;
 			sourceTree = "<group>";
@@ -118,16 +120,6 @@
 				000D0CCC1DC2EBC100C1A1A5 /* Info.plist */,
 			);
 			path = KS_DYZBUITests;
-			sourceTree = "<group>";
-		};
-		000D0CF41DC2F82A00C1A1A5 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				000D0CB31DC2EBC100C1A1A5 /* LaunchScreen.storyboard */,
-				000D0CB11DC2EBC100C1A1A5 /* Assets.xcassets */,
-				000D0CB61DC2EBC100C1A1A5 /* Info.plist */,
-			);
-			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +309,6 @@
 				000D0CB41DC2EBC100C1A1A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
