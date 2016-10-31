@@ -9,9 +9,20 @@
 import UIKit
 
 
+
+// MARK:- 定义协议
+protocol KSPageTitleViewDelegate : class{
+    func pageTileView(_ titleView : KSPageTitleView ,_ clickTitleIndex : Int)
+    
+}
+
+
 // MARK:- 定义常量
 fileprivate let KScrollLineH : CGFloat = 2
 fileprivate let KLineMargin : CGFloat = 5
+private let KNormalColor : (CGFloat, CGFloat, CGFloat) = (85, 85, 85)
+private let kSelectColor : (CGFloat, CGFloat, CGFloat) = (255, 128, 0)
+
 
 
 
@@ -29,6 +40,8 @@ class KSPageTitleView: UIView {
         return scrollView
     }()
     
+    weak var delegate : KSPageTitleViewDelegate?
+    
    lazy fileprivate var labels : [UILabel] = [UILabel]()
     
     lazy fileprivate var scrollLineV : UIView = {
@@ -39,11 +52,9 @@ class KSPageTitleView: UIView {
     
     fileprivate var currentIndex = 0
     
-    
-   
    
     
-    //MARK:- 方法
+    //MARK:- 初始化方法
     init(frame: CGRect,titles:[String]) {
         self.titles = titles
         super.init(frame: frame)
@@ -88,11 +99,12 @@ extension KSPageTitleView{
             label.font = UIFont.systemFont(ofSize: 16)
             label.isUserInteractionEnabled = true
             label.tag = index
+            label.textColor = UIColor(r: KNormalColor.0, g: KNormalColor.1, b: KNormalColor.2)
             scrollView.addSubview(label)
             labels.append(label)
             
             if index == 0 {
-                label.textColor = UIColor.orange
+                label.textColor = UIColor(r: kSelectColor.0, g: kSelectColor.1, b: kSelectColor.2)
             }
             
             //给label添加手势
@@ -139,8 +151,9 @@ extension KSPageTitleView{
         }
         
         let oldLabel = labels[currentIndex]
-        oldLabel.textColor = UIColor.black
-        currentLabel.textColor = UIColor.orange
+        oldLabel.textColor = UIColor(r: KNormalColor.0, g: KNormalColor.1, b: KNormalColor.2)
+        currentLabel.textColor = UIColor(r: kSelectColor.0, g: kSelectColor.1, b: kSelectColor.2)
+        
         
         //保存现在的label的tag
         currentIndex = currentLabel.tag
@@ -150,9 +163,56 @@ extension KSPageTitleView{
             self.scrollLineV.center.x = currentLabel.center.x
         }
         
+        delegate?.pageTileView(self, currentIndex)
+    }
+}
+
+
+// MARK:- 暴露外界方法
+extension KSPageTitleView{
+    func setTitleWithProgress(_ progress : CGFloat, sourceIndex : Int, targetIndex : Int){
+        // 1.取出sourceLabel/targetLabel
+        let sourceLabel = labels[sourceIndex]
+        let targetLabel = labels[targetIndex]
+        
+        // 2.处理滑块的逻辑
+        let moveTotalCenterX = targetLabel.center.x - sourceLabel.center.x
+        let moveCenterX = moveTotalCenterX * progress
+        scrollLineV.center.x = sourceLabel.center.x + moveCenterX
+        
+        // 3.颜色的渐变(复杂)
+        // 3.1.取出变化的范围
+        let colorDelta = (kSelectColor.0 - KNormalColor.0, kSelectColor.1 - KNormalColor.1, kSelectColor.2 - KNormalColor.2)
+        
+        // 3.2.变化sourceLabel
+        sourceLabel.textColor = UIColor(r: kSelectColor.0 - colorDelta.0 * progress, g: kSelectColor.1 - colorDelta.1 * progress, b: kSelectColor.2 - colorDelta.2 * progress)
+        
+        // 3.2.变化targetLabel
+        targetLabel.textColor = UIColor(r: KNormalColor.0 + colorDelta.0 * progress, g: KNormalColor.1 + colorDelta.1 * progress, b: KNormalColor.2 + colorDelta.2 * progress)
+
+//        //记录最新的index
+        if progress == 1.0 {
+            currentIndex = targetIndex
+        }
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     
-
+    
+    
+    
 }
 
 

@@ -22,6 +22,7 @@
 		000D0D251DC33E6700C1A1A5 /* KSPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */; };
 		000D0D271DC3467B00C1A1A5 /* KSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D261DC3467B00C1A1A5 /* KSCommon.swift */; };
 		000D0D291DC3541E00C1A1A5 /* KSPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */; };
+		00DBB3561DC6F3B300896787 /* UIColor_KSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBB3551DC6F3B300896787 /* UIColor_KSExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageTitleView.swift; sourceTree = "<group>"; };
 		000D0D261DC3467B00C1A1A5 /* KSCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCommon.swift; sourceTree = "<group>"; };
 		000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageContentView.swift; sourceTree = "<group>"; };
+		00DBB3551DC6F3B300896787 /* UIColor_KSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_KSExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +366,7 @@
 		000D0D101DC2FDC400C1A1A5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				00DBB3551DC6F3B300896787 /* UIColor_KSExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				000D0D271DC3467B00C1A1A5 /* KSCommon.swift in Sources */,
 				000D0D291DC3541E00C1A1A5 /* KSPageContentView.swift in Sources */,
 				000D0D231DC3370800C1A1A5 /* KSHomeController.swift in Sources */,
+				00DBB3561DC6F3B300896787 /* UIColor_KSExtension.swift in Sources */,
 				000D0D251DC33E6700C1A1A5 /* KSPageTitleView.swift in Sources */,
 				000D0CAB1DC2EBC100C1A1A5 /* AppDelegate.swift in Sources */,
 			);
