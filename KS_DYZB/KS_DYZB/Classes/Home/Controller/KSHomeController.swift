@@ -31,7 +31,7 @@ class KSHomeController: UIViewController {
         let contentH = KScreenH - KStatusBarH - KNavigationBarH - kTitleViewH - KTabBarH
         let contentFrame = CGRect(x: 0, y: KStatusBarH + KNavigationBarH + kTitleViewH, width: KScreenW, height: contentH)
         var childVcs = [UIViewController]()
-        childVcs.append(UIViewController())
+        childVcs.append(KSRecommendController())
         childVcs.append(UIViewController())
         childVcs.append(UIViewController())
         childVcs.append(UIViewController())
@@ -39,7 +39,6 @@ class KSHomeController: UIViewController {
         let pageContentView = KSPageContentView(frame: contentFrame, childVcs: childVcs, parentViewController: self)
         pageContentView.delegate = self
     
-        
         return pageContentView
         
         }()

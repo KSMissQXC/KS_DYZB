@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="normalCell" id="gTV-IL-0wX" customClass="KSHomeCollectionViewCell" customModule="KS_DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="191" height="163"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="191" height="163"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_live_cate_normal" translatesAutoresizingMaskIntoConstraints="NO" id="5mE-FK-M66" userLabel="iconImage">
+                        <rect key="frame" x="0.0" y="139" width="14" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Vtf-Tm-zgm"/>
+                            <constraint firstAttribute="width" constant="14" id="qXd-77-vrT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KS教育" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npq-EH-FLG" userLabel="roomLabel">
+                        <rect key="frame" x="19" y="139" width="40" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="yIn-7e-PPw">
+                        <rect key="frame" x="0.0" y="0.0" width="191" height="134"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyG-nf-G2b" userLabel="nickLabel">
+                        <rect key="frame" x="5" y="114" width="31" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOk-W9-Bjb">
+                        <rect key="frame" x="118" y="108" width="68" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="4566人在线"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="yIn-7e-PPw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="08m-qg-Tt4"/>
+                <constraint firstItem="yIn-7e-PPw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EUD-Wk-wYy"/>
+                <constraint firstItem="5mE-FK-M66" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MIZ-BD-ap6"/>
+                <constraint firstAttribute="trailing" secondItem="yIn-7e-PPw" secondAttribute="trailing" id="Ndn-3m-ZQA"/>
+                <constraint firstAttribute="bottom" secondItem="5mE-FK-M66" secondAttribute="bottom" constant="10" id="Q1H-lP-qJ7"/>
+                <constraint firstItem="npq-EH-FLG" firstAttribute="centerY" secondItem="5mE-FK-M66" secondAttribute="centerY" id="bPv-qJ-iQK"/>
+                <constraint firstItem="npq-EH-FLG" firstAttribute="leading" secondItem="5mE-FK-M66" secondAttribute="trailing" constant="5" id="eIf-dW-rjQ"/>
+                <constraint firstItem="zyG-nf-G2b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="eZx-kd-cnP"/>
+                <constraint firstItem="5mE-FK-M66" firstAttribute="top" secondItem="yIn-7e-PPw" secondAttribute="bottom" constant="5" id="iKA-lU-4L7"/>
+                <constraint firstItem="lOk-W9-Bjb" firstAttribute="centerY" secondItem="zyG-nf-G2b" secondAttribute="centerY" id="iSx-1B-9al"/>
+                <constraint firstItem="zyG-nf-G2b" firstAttribute="bottom" secondItem="yIn-7e-PPw" secondAttribute="bottom" constant="-5" id="vVp-aN-bey"/>
+                <constraint firstAttribute="trailing" secondItem="lOk-W9-Bjb" secondAttribute="trailing" constant="5" id="xWK-Mb-GZN"/>
+            </constraints>
+            <size key="customSize" width="191" height="163"/>
+            <connections>
+                <outlet property="iconImageView" destination="yIn-7e-PPw" id="BTp-PD-aq2"/>
+                <outlet property="nickNameLabel" destination="zyG-nf-G2b" id="iNC-5d-chK"/>
+                <outlet property="onlineBtn" destination="lOk-W9-Bjb" id="L0c-T5-fdS"/>
+                <outlet property="roomLabel" destination="npq-EH-FLG" id="VQG-Tg-Xhm"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="-56"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172" height="103"/>
+        <image name="home_live_cate_normal" width="14" height="14"/>
+    </resources>
+</document>

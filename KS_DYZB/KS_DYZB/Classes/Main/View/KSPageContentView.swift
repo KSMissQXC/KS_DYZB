@@ -102,7 +102,7 @@ extension KSPageContentView : UICollectionViewDelegate,UICollectionViewDataSourc
         let childVc = childVcs[indexPath.item]
         if !childVc.isViewLoaded {
             childVc.view.frame = collectionViewCell.contentView.bounds
-            childVc.view.backgroundColor = UIColor.randomColor()
+//            childVc.view.backgroundColor = UIColor.randomColor()
         }
       
         collectionViewCell.contentView.addSubview(childVc.view)

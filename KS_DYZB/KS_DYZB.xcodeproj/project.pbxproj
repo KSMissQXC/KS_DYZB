@@ -22,7 +22,26 @@
 		000D0D251DC33E6700C1A1A5 /* KSPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */; };
 		000D0D271DC3467B00C1A1A5 /* KSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D261DC3467B00C1A1A5 /* KSCommon.swift */; };
 		000D0D291DC3541E00C1A1A5 /* KSPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */; };
+		0013B7D71DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013B7D51DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.swift */; };
+		0013B7D81DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0013B7D61DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.xib */; };
+		0013B7DA1DCB229F00F4BA4A /* KSHomeBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013B7D91DCB229F00F4BA4A /* KSHomeBaseCollectionCell.swift */; };
+		007F3EA81DCB29FD001F48E9 /* KSHomeCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F3EA71DCB29FD001F48E9 /* KSHomeCycleModel.swift */; };
+		007F3EAA1DCB2B21001F48E9 /* KSHomeRecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F3EA91DCB2B21001F48E9 /* KSHomeRecommendCycleView.swift */; };
+		007F3EAC1DCB2B2F001F48E9 /* KSHomeRecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F3EAB1DCB2B2F001F48E9 /* KSHomeRecommendCycleView.xib */; };
+		007F3EAF1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F3EAD1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.swift */; };
+		007F3EB01DCB2C42001F48E9 /* KSHomeRecommendCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F3EAE1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.xib */; };
 		00DBB3561DC6F3B300896787 /* UIColor_KSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBB3551DC6F3B300896787 /* UIColor_KSExtension.swift */; };
+		00E89BF11DC9963A003D5FEC /* KSRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BF01DC9963A003D5FEC /* KSRecommendController.swift */; };
+		00E89BF31DC99A03003D5FEC /* KSNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BF21DC99A03003D5FEC /* KSNetworkTool.swift */; };
+		00E89BF51DC9B560003D5FEC /* KSAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BF41DC9B560003D5FEC /* KSAnchorGroup.swift */; };
+		00E89BF71DC9B582003D5FEC /* KSAnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BF61DC9B582003D5FEC /* KSAnchorModel.swift */; };
+		00E89BF91DC9C57A003D5FEC /* KSRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BF81DC9C57A003D5FEC /* KSRecommendViewModel.swift */; };
+		00E89BFB1DC9C64F003D5FEC /* NSDate_KSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BFA1DC9C64F003D5FEC /* NSDate_KSExtension.swift */; };
+		00E89BFE1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89BFC1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.swift */; };
+		00E89BFF1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E89BFD1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.xib */; };
+		00E89C021DC9E0AA003D5FEC /* KSHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E89C001DC9E0AA003D5FEC /* KSHomeCollectionViewCell.swift */; };
+		00E89C031DC9E0AA003D5FEC /* KSHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E89C011DC9E0AA003D5FEC /* KSHomeCollectionViewCell.xib */; };
+		A36B7C8A0A7AAC69A5605191 /* Pods_KS_DYZB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7582C98118B0FC029E535F /* Pods_KS_DYZB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +82,28 @@
 		000D0D241DC33E6700C1A1A5 /* KSPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageTitleView.swift; sourceTree = "<group>"; };
 		000D0D261DC3467B00C1A1A5 /* KSCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCommon.swift; sourceTree = "<group>"; };
 		000D0D281DC3541E00C1A1A5 /* KSPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageContentView.swift; sourceTree = "<group>"; };
+		0013B7D51DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeBeautifyCollectionCell.swift; sourceTree = "<group>"; };
+		0013B7D61DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSHomeBeautifyCollectionCell.xib; sourceTree = "<group>"; };
+		0013B7D91DCB229F00F4BA4A /* KSHomeBaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeBaseCollectionCell.swift; sourceTree = "<group>"; };
+		007F3EA71DCB29FD001F48E9 /* KSHomeCycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeCycleModel.swift; sourceTree = "<group>"; };
+		007F3EA91DCB2B21001F48E9 /* KSHomeRecommendCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeRecommendCycleView.swift; sourceTree = "<group>"; };
+		007F3EAB1DCB2B2F001F48E9 /* KSHomeRecommendCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSHomeRecommendCycleView.xib; sourceTree = "<group>"; };
+		007F3EAD1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeRecommendCycleCell.swift; sourceTree = "<group>"; };
+		007F3EAE1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSHomeRecommendCycleCell.xib; sourceTree = "<group>"; };
 		00DBB3551DC6F3B300896787 /* UIColor_KSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_KSExtension.swift; sourceTree = "<group>"; };
+		00E89BF01DC9963A003D5FEC /* KSRecommendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSRecommendController.swift; sourceTree = "<group>"; };
+		00E89BF21DC99A03003D5FEC /* KSNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSNetworkTool.swift; sourceTree = "<group>"; };
+		00E89BF41DC9B560003D5FEC /* KSAnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSAnchorGroup.swift; sourceTree = "<group>"; };
+		00E89BF61DC9B582003D5FEC /* KSAnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSAnchorModel.swift; sourceTree = "<group>"; };
+		00E89BF81DC9C57A003D5FEC /* KSRecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSRecommendViewModel.swift; sourceTree = "<group>"; };
+		00E89BFA1DC9C64F003D5FEC /* NSDate_KSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate_KSExtension.swift; sourceTree = "<group>"; };
+		00E89BFC1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeCollectionHeaderView.swift; sourceTree = "<group>"; };
+		00E89BFD1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSHomeCollectionHeaderView.xib; sourceTree = "<group>"; };
+		00E89C001DC9E0AA003D5FEC /* KSHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		00E89C011DC9E0AA003D5FEC /* KSHomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DAEBC598D5A4C26601B4E5F /* Pods-KS_DYZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KS_DYZB.release.xcconfig"; path = "Pods/Target Support Files/Pods-KS_DYZB/Pods-KS_DYZB.release.xcconfig"; sourceTree = "<group>"; };
+		A829D7C6B1F7D344F35F3797 /* Pods-KS_DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KS_DYZB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KS_DYZB/Pods-KS_DYZB.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7582C98118B0FC029E535F /* Pods_KS_DYZB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KS_DYZB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36B7C8A0A7AAC69A5605191 /* Pods_KS_DYZB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +139,8 @@
 				000D0CBE1DC2EBC100C1A1A5 /* KS_DYZBTests */,
 				000D0CC91DC2EBC100C1A1A5 /* KS_DYZBUITests */,
 				000D0CA81DC2EBC100C1A1A5 /* Products */,
+				E42183C9AE1C3F2CAB488063 /* Pods */,
+				B8D1AADB5429E439B2EA392C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +251,7 @@
 			children = (
 				000D0D1A1DC31FE800C1A1A5 /* KSHome.storyboard */,
 				000D0D221DC3370800C1A1A5 /* KSHomeController.swift */,
+				00E89BF01DC9963A003D5FEC /* KSRecommendController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,6 +259,7 @@
 		000D0CFD1DC2FDC400C1A1A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				007F3EA71DCB29FD001F48E9 /* KSHomeCycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +267,17 @@
 		000D0CFE1DC2FDC400C1A1A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00E89BFC1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.swift */,
+				00E89BFD1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.xib */,
+				0013B7D91DCB229F00F4BA4A /* KSHomeBaseCollectionCell.swift */,
+				00E89C001DC9E0AA003D5FEC /* KSHomeCollectionViewCell.swift */,
+				00E89C011DC9E0AA003D5FEC /* KSHomeCollectionViewCell.xib */,
+				0013B7D51DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.swift */,
+				0013B7D61DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.xib */,
+				007F3EA91DCB2B21001F48E9 /* KSHomeRecommendCycleView.swift */,
+				007F3EAB1DCB2B2F001F48E9 /* KSHomeRecommendCycleView.xib */,
+				007F3EAD1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.swift */,
+				007F3EAE1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,6 +285,7 @@
 		000D0CFF1DC2FDC400C1A1A5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				00E89BF81DC9C57A003D5FEC /* KSRecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -279,7 +336,6 @@
 				000D0D061DC2FDC400C1A1A5 /* Controller */,
 				000D0D081DC2FDC400C1A1A5 /* View */,
 				000D0D071DC2FDC400C1A1A5 /* Model */,
-				000D0D091DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -294,6 +350,9 @@
 		000D0D071DC2FDC400C1A1A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				00E89BF41DC9B560003D5FEC /* KSAnchorGroup.swift */,
+				00E89BF61DC9B582003D5FEC /* KSAnchorModel.swift */,
+				000D0D091DC2FDC400C1A1A5 /* ViewModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,7 +370,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewModel;
+			name = ViewModel;
+			path = ../ViewModel;
 			sourceTree = "<group>";
 		};
 		000D0D0A1DC2FDC400C1A1A5 /* Mine */ = {
@@ -359,6 +419,8 @@
 			children = (
 				000D0D101DC2FDC400C1A1A5 /* Extension */,
 				000D0D261DC3467B00C1A1A5 /* KSCommon.swift */,
+				00E89BF21DC99A03003D5FEC /* KSNetworkTool.swift */,
+				00E89BFA1DC9C64F003D5FEC /* NSDate_KSExtension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -382,6 +444,23 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		B8D1AADB5429E439B2EA392C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA7582C98118B0FC029E535F /* Pods_KS_DYZB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E42183C9AE1C3F2CAB488063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A829D7C6B1F7D344F35F3797 /* Pods-KS_DYZB.debug.xcconfig */,
+				9DAEBC598D5A4C26601B4E5F /* Pods-KS_DYZB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,9 +468,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000D0CCF1DC2EBC100C1A1A5 /* Build configuration list for PBXNativeTarget "KS_DYZB" */;
 			buildPhases = (
+				548549351F33E876955CA260 /* [CP] Check Pods Manifest.lock */,
 				000D0CA31DC2EBC100C1A1A5 /* Sources */,
 				000D0CA41DC2EBC100C1A1A5 /* Frameworks */,
 				000D0CA51DC2EBC100C1A1A5 /* Resources */,
+				B4B6E1C0570AF3668AA13CE1 /* [CP] Embed Pods Frameworks */,
+				8749406AADB707C8197EC71D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -494,13 +576,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				000D0D181DC2FF7F00C1A1A5 /* LaunchScreen.storyboard in Resources */,
+				007F3EAC1DCB2B2F001F48E9 /* KSHomeRecommendCycleView.xib in Resources */,
+				007F3EB01DCB2C42001F48E9 /* KSHomeRecommendCycleCell.xib in Resources */,
 				000D0D171DC2FF7F00C1A1A5 /* Info.plist in Resources */,
 				000D0D1F1DC3209100C1A1A5 /* KSFocus.storyboard in Resources */,
 				000D0D1D1DC3205900C1A1A5 /* KSLive.storyboard in Resources */,
 				000D0D1B1DC31FE800C1A1A5 /* KSHome.storyboard in Resources */,
 				000D0D161DC2FF7F00C1A1A5 /* Assets.xcassets in Resources */,
+				0013B7D81DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.xib in Resources */,
 				000D0D191DC2FF7F00C1A1A5 /* Main.storyboard in Resources */,
 				000D0D211DC320CF00C1A1A5 /* KSMine.storyboard in Resources */,
+				00E89BFF1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.xib in Resources */,
+				00E89C031DC9E0AA003D5FEC /* KSHomeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,17 +607,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		548549351F33E876955CA260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8749406AADB707C8197EC71D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KS_DYZB/Pods-KS_DYZB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B6E1C0570AF3668AA13CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KS_DYZB/Pods-KS_DYZB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		000D0CA31DC2EBC100C1A1A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E89BFB1DC9C64F003D5FEC /* NSDate_KSExtension.swift in Sources */,
+				00E89BF71DC9B582003D5FEC /* KSAnchorModel.swift in Sources */,
 				000D0D271DC3467B00C1A1A5 /* KSCommon.swift in Sources */,
 				000D0D291DC3541E00C1A1A5 /* KSPageContentView.swift in Sources */,
+				00E89BF51DC9B560003D5FEC /* KSAnchorGroup.swift in Sources */,
 				000D0D231DC3370800C1A1A5 /* KSHomeController.swift in Sources */,
 				00DBB3561DC6F3B300896787 /* UIColor_KSExtension.swift in Sources */,
+				007F3EAA1DCB2B21001F48E9 /* KSHomeRecommendCycleView.swift in Sources */,
+				0013B7DA1DCB229F00F4BA4A /* KSHomeBaseCollectionCell.swift in Sources */,
+				0013B7D71DCB1F9200F4BA4A /* KSHomeBeautifyCollectionCell.swift in Sources */,
+				00E89BF31DC99A03003D5FEC /* KSNetworkTool.swift in Sources */,
 				000D0D251DC33E6700C1A1A5 /* KSPageTitleView.swift in Sources */,
+				007F3EA81DCB29FD001F48E9 /* KSHomeCycleModel.swift in Sources */,
+				00E89BF91DC9C57A003D5FEC /* KSRecommendViewModel.swift in Sources */,
+				00E89BF11DC9963A003D5FEC /* KSRecommendController.swift in Sources */,
 				000D0CAB1DC2EBC100C1A1A5 /* AppDelegate.swift in Sources */,
+				007F3EAF1DCB2C42001F48E9 /* KSHomeRecommendCycleCell.swift in Sources */,
+				00E89BFE1DC9D87A003D5FEC /* KSHomeCollectionHeaderView.swift in Sources */,
+				00E89C021DC9E0AA003D5FEC /* KSHomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +807,7 @@
 		};
 		000D0CD01DC2EBC100C1A1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A829D7C6B1F7D344F35F3797 /* Pods-KS_DYZB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -673,6 +822,7 @@
 		};
 		000D0CD11DC2EBC100C1A1A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAEBC598D5A4C26601B4E5F /* Pods-KS_DYZB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
